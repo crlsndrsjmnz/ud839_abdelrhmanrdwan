@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.miwok.test">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play"
+        android:id="@+id/play"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="puse"
+     android:layout_toRightOf="@+id/play"
+     android:id="@+id/puse"
+     android:layout_alignBottom="@id/play"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:id="@+id/reset"
+        android:layout_toLeftOf="@+id/play"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
